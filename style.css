@@ -1,0 +1,115 @@
+* {
+  font-family: "Poller One", cursive;
+}
+
+header {
+  border-bottom: solid 2px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body {
+  font-family: "Poller One", cursive;
+  background: url(img/Brooklyn_Bridge.png) center center / cover no-repeat fixed;
+}
+h5 {
+  color: white;
+}
+.container {
+  margin-bottom: 200px;
+}
+footer {
+  font-size: 0.8em;
+}
+.banner {
+  margin-top: 80%;
+  margin-bottom: 5%;
+}
+
+.icon {
+  width: 1em;
+  margin: 5px;
+}
+
+.photo {
+  width: 100%;
+}
+
+h1 {
+  font-size: 2em;
+}
+#work {
+  height: 2em;
+}
+nav {
+  font-size: x-small;
+}
+h5,
+p {
+  font-size: smaller;
+}
+form {
+  font-size: small;
+  width: 100%;
+  height: 100%;
+}
+.app-img {
+  width: 100%;
+  /* margin: 3em; */
+}
+.app-img:hover {
+  width: 101%;
+}
+.app-banner {
+  background-color: dimgray;
+  color: aliceblue;
+  text-align: center;
+}
+
+/* @media screen and (min-width: 375px) {
+  .photo {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 100%;
+  }
+  nav {
+    font-size: x-small;
+  }
+  h5,
+  p {
+    font-size: smaller;
+  }
+  form {
+    font-size: small;
+    width: 100%;
+    height: 100%;
+  }
+} */
+@media screen and (min-width: 767px) {
+  .photo {
+    width: 18rem;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  footer {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .photo {
+    width: 18rem;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .jumbotron {
+    height: 32em;
+  }
+}
