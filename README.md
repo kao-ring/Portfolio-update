@@ -1,69 +1,103 @@
-## Responsive Portfolio - Kaori Caplan -
+# Unit 08 Project 1 Homework: Professional Materials
 
-Responsive portofolio with Bootstrap of Kaori Caplan
+Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.
 
-- [`Kaori Caplan Portfolio`](https://kao-ring.github.io/Responsive-Portfolio-w-Bootstrap/)
-- [`Git hub Repository`](https://github.com/kao-ring/Responsive-Portfolio-w-Bootstrap)
+If you are opting out of career services, this is _still a required assignment_. Part of being a web developer means being a part of a community. Having a place to share your projects is _necessary_ if you're applying for jobs, but is still _critical_ on your journey as a developer.
 
-## Using Bootstrap
+## Requirements
 
-Using some classes from Bootstrap for grids, responsive layout and photos.
-Smaller than 768px, header break into 2.
+- Updated portfolio featuring project 1 and two exemplary homework assignments.
 
-## index.html
+- Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
 
-- Using a class .sticky-top and .fixed-bottom to make header and footer sticky.
+- Updated resume
 
-```
-<header class="sticky-top">
-```
+- Updated LinkedIn profile
 
-```
-<footer class="fixed-bottom py-3 m-0 border-warning text-center bg-dark text-warning">
-```
+## Grading
 
-- Using responsive layout for a body.
+| Requirement      | Weight |
+| ---------------- | ------ |
+| Portoflio        | 40%    |
+| GitHub Profile   | 40%    |
+| Resume           | 10%    |
+| LinkedIn Profile | 10%    |
 
-- Body contents are in a Jumbotron from bootstrap.
+## Instructions
 
-## portfolio.html
+1. [Updated Portfolio](#updated-portfolio)
+2. [GitHub Profile](#updated-github-profile)
+3. [Updated Resume](#updated-resume)
+4. [Updated LinkedIn](#updated-linkedin)
 
-- Using grid and card for contents.
-- Using media queries on css file for contents.
+### Updated Portfolio
 
-```
-@media screen and (max-width: 480px) {
-  #photo {
-    width: 100%;
-  }
-```
+Your updated site should have the following content:
 
-## contacts.html
+- Your name
 
-- using form class from botstrap.
+- Links to your GitHub profile & LinkedIn page as well as your email address and phone number
 
-## Image of each files
+- A link to a PDF of your resume
 
-Small size
+- A list of projects. For each project, make sure you have the following:
 
-![S-index](https://user-images.githubusercontent.com/66850293/86197355-34a99580-bb23-11ea-8ae5-c91cc9b8508e.png)
+  - Project title
 
-![S-portfolio](https://user-images.githubusercontent.com/66850293/86197381-40955780-bb23-11ea-9e86-e2416d9c81f2.png)
+  - Link to the deployed version
 
-![S-contacts](https://user-images.githubusercontent.com/66850293/86197340-2eb3b480-bb23-11ea-8bd6-6e741ed16d04.png)
+  - Link to the GitHub repository
 
-Medium size
+  - Screenshot of the deployed application
 
-![M-index](https://user-images.githubusercontent.com/66850293/86197472-70445f80-bb23-11ea-8ce3-3d6cbbf5346c.png)
+#### Design
 
-![M-portfolio](https://user-images.githubusercontent.com/66850293/86197476-72a6b980-bb23-11ea-940a-0a5d06d679a7.png)
+Unfortunately, this is where it gets a little bit subjective. Your site should look
+"polished." Here are a few guidelines on what that means:
 
-![M-contacts](https://user-images.githubusercontent.com/66850293/86197452-66baf780-bb23-11ea-852a-e09bc816e747.png)
+- Mobile-first design
 
-Large size
+- Choose a color palette for your site so it doesn't just look like
+  the default bootstrap theme or an unstyled HTML site.
 
-![L-index](https://user-images.githubusercontent.com/66850293/86197515-8f42f180-bb23-11ea-9bcc-de02d3d21de8.png)
+- Make sure the font size is large enough to read, and that the colors don't cause eye strain.
 
-![L-portfolio](https://user-images.githubusercontent.com/66850293/86197522-9407a580-bb23-11ea-8e70-cd71bd4da9f8.png)
+### Updated GitHub Profile
 
-![L-contacts](https://user-images.githubusercontent.com/66850293/86197507-89e5a700-bb23-11ea-9ffd-1ffc8a79ba7e.png)
+- If you haven't yet, now is the time to update the following in your GitHub profile:
+
+  - Profile picture
+
+  - Bio
+
+  - Location
+
+  - Email
+
+  - Link to your portfolio
+
+- Employers (and potential collaborators) _will_ look at your GitHub profile, so put your best face forward.
+
+- Pin some repos that you want to highlight
+
+  - Navigate to [GitHub](https://github.com/) and go to your profile.
+
+  - Click "Customize your pins"
+
+  - Click the checkboxes for your project and 2-3 homework assignments that you would like to share
+
+  - Make sure each of these projects is deployed and add a link to the deployed project in their README files
+
+- Follow your classmates. They are the beginning of your professional network and being a developer is as much about being a part of the community as it is writing code.
+
+### Updated Resume
+
+Submit a clear, concise and compelling resume, tailored to the type of job you’re looking for.
+
+### Updated LinkedIn Profile
+
+Update your LinkedIn Profile with a strong bio statement, a professional photo, and links to your Github and portfolio.
+
+---
+
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
