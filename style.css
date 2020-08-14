@@ -28,8 +28,11 @@ footer {
 }
 
 .icon {
-  width: 1em;
+  height: 2em;
   margin: 5px;
+}
+.icon-h {
+  height: 3em;
 }
 
 .photo {
